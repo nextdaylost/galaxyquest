@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- [CHANGELOG](CHANGELOG.md) to track changes to the project over time. 
+- [CHANGELOG](CHANGELOG.md) to track changes to the project over time.
 - [README](README.md) to provide basic project documentation.
 
 [Unreleased]: https://github.com/nextdaylost/galaxyquest/compare/main...develop
