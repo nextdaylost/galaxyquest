@@ -4,6 +4,7 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
+      "@app/layouts/*": ["app/layouts/*"],
       "@environment": ["environments/environment.ts"]
     },
     "outDir": "./dist/out-tsc",
