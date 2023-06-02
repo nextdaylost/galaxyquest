@@ -4,12 +4,14 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
+      "@app/components/*": ["app/components/*"],
       "@app/layouts/*": ["app/layouts/*"],
       "@environment": ["environments/environment.ts"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "strictPropertyInitialization": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
