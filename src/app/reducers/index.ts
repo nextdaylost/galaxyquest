@@ -7,8 +7,12 @@ import {
   MetaReducer,
 } from '@ngrx/store';
 
+import { logAction } from './log.reducer';
+
 export interface State {}
 
 export const reducers: ActionReducerMap<State> = {};
 
-export const metaReducers: MetaReducer<State>[] = isDevMode() ? [] : [];
+export const metaReducers: MetaReducer<State>[] = isDevMode()
+  ? [logAction]
+  : [];
