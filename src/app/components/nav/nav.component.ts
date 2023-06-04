@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 import { MobileNavComponent } from '@app/components/mobile-nav/mobile-nav.component';
 import { NavLinkListComponent } from '@app/components/nav-link-list/nav-link-list.component';
@@ -13,6 +14,7 @@ import { MobileNavMenuButtonComponent } from '@app/components/mobile-nav-menu-bu
     MobileNavComponent,
     NavLinkListComponent,
     MobileNavMenuButtonComponent,
+    RouterLink,
   ],
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css'],
