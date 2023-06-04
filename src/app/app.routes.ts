@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 
+import { NotFoundComponent } from '@app/components/errors/not-found/not-found.component';
 import { GridComponent } from '@app/components/grid/grid.component';
 import { HomeComponent } from '@app/components/home/home.component';
 import { MapComponent } from '@app/components/map/map.component';
@@ -16,4 +17,5 @@ export const routes: Routes = [
       { path: '', pathMatch: 'full', redirectTo: 'home' },
     ],
   },
+  { path: '**', component: NotFoundComponent },
 ];
