@@ -1,0 +1,7 @@
+<div
+  *ngIf="(this.mobileNavState$ | async)?.isOpen"
+  class="sm:hidden"
+  id="mobile-menu"
+>
+  <app-mobile-nav-link-list></app-mobile-nav-link-list>
+</div>
