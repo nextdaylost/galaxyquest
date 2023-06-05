@@ -1,8 +1,8 @@
-// @ts-ignore
-import pkg from '@package';
-
 export const environment = {
   appInfo: {
-    support: pkg.author,
+    support: {
+      email: 'contact@nextdaylost.com',
+      name: 'Galaxy Quest Support',
+    },
   },
 };
