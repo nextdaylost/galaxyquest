@@ -7,7 +7,8 @@
       "@app/components/*": ["app/components/*"],
       "@app/layouts/*": ["app/layouts/*"],
       "@environment": ["environments/environment.ts"],
-      "@package": ["../package.json"]
+      "@package": ["../package.json"],
+      "@utils/*": ["utils/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

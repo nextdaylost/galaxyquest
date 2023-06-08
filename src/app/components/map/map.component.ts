@@ -14,6 +14,7 @@ import {
 } from 'leaflet';
 
 import { environment } from '@environment';
+import * as LeafletPatches from '@utils/patches/leaflet';
 
 @Component({
   selector: 'app-map',
@@ -42,6 +43,10 @@ export class MapComponent {
     }),
     zoom: environment.map.options.zoom,
   };
+
+  constructor() {
+    LeafletPatches.fixMarker();
+  }
 
   onDrawCreated($event: DrawEvents.Created) {
     this.drawLayer.addLayer($event.layer);
