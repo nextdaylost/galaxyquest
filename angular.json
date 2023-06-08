@@ -49,7 +49,8 @@
             "assets": ["src/robots.txt", "src/assets"],
             "styles": [
               "src/styles.css",
-              "node_modules/leaflet/dist/leaflet.css"
+              "node_modules/leaflet/dist/leaflet.css",
+              "node_modules/leaflet-draw/dist/leaflet.draw.css"
             ],
             "scripts": []
           },
@@ -112,7 +113,8 @@
             "assets": ["src/robots.txt", "src/assets"],
             "styles": [
               "src/styles.css",
-              "node_modules/leaflet/dist/leaflet.css"
+              "node_modules/leaflet/dist/leaflet.css",
+              "node_modules/leaflet-draw/dist/leaflet.draw.css"
             ],
             "scripts": []
           }

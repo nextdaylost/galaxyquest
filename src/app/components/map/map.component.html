@@ -1,1 +1,10 @@
-<div class="flex-auto" leaflet [leafletOptions]="mapOptions"></div>
+<div
+  class="flex-auto"
+  leaflet
+  leafletDraw
+  [leafletOptions]="mapOptions"
+  [leafletDrawOptions]="drawOptions"
+  (leafletDrawCreated)="onDrawCreated($event)"
+>
+  <div [leafletLayer]="drawLayer"></div>
+</div>
