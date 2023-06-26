@@ -4,7 +4,6 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 
 import { MobileNavLinkListComponent } from '@app/components/mobile-nav-link-list/mobile-nav-link-list.component';
-import * as MobileNavActions from './mobile-nav.actions';
 import * as MobileNavReducer from './mobile-nav.reducer';
 
 @Component({
