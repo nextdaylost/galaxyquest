@@ -1,4 +1,4 @@
-import { ActionReducer, MetaReducer } from '@ngrx/store';
+import { ActionReducer } from '@ngrx/store';
 
 export function logAction(reducer: ActionReducer<any>): ActionReducer<any> {
   return function (state, action) {
