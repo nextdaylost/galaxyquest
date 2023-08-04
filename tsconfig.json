@@ -5,6 +5,7 @@
     "baseUrl": "./src",
     "paths": {
       "@app/components/*": ["app/components/*"],
+      "@app/interfaces/*": ["app/interfaces/*"],
       "@app/layouts/*": ["app/layouts/*"],
       "@environment": ["environments/environment.ts"],
       "@package": ["../package.json"],
