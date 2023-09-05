@@ -1,22 +1,10 @@
-<div class="py-10">
-  <header>
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-bold leading-tight tracking-tight text-gray-900">
-        Grid
-      </h1>
-    </div>
-  </header>
-  <main>
-    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <div class="px-4 py-8 sm:px-0">
-        <ag-grid-angular
-          class="h-96 ag-theme-alpine"
-          [rowData]="rowData"
-          [columnDefs]="columnDefs"
-          [defaultColDef]="defaultColDef"
-          (gridReady)="onGridReady($event)"
-        ></ag-grid-angular>
-      </div>
-    </div>
-  </main>
+<div class="flex flex-auto h-full p-12">
+  <ag-grid-angular
+    class="flex-grow overflow-hidden ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    [dataTypeDefinitions]="dataTypeDefinitions"
+    (gridReady)="onGridReady($event)"
+  ></ag-grid-angular>
 </div>

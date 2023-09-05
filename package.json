@@ -29,6 +29,7 @@
     "@ngrx/store": "^16.0.1",
     "ag-grid-angular": "^30.0.3",
     "ag-grid-community": "^30.0.3",
+    "ag-grid-enterprise": "^30.0.3",
     "leaflet": "^1.9.4",
     "leaflet-draw": "^1.0.2",
     "rxjs": "~7.8.0",
